@@ -1,0 +1,739 @@
+/* --------------------------- CSS RESET ---------------------------- */
+* 
+{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body 
+{ 
+    font-family: 'Playfair Display', serif;
+    line-height: 1.7rem;
+    color: #292f2f;
+    font-weight: lighter;
+}
+
+/* ------------------------- UTILITY STYLES ------------------------- */
+ img 
+{ 
+    width: 100%;
+    max-width: 100%;
+}
+
+a
+{
+    text-decoration: none;
+    color: #000;
+}
+
+.container 
+{ 
+    margin: 0 auto;
+    max-width: 1200px; 
+    width: 90%; 
+}
+
+.grid 
+{ 
+    display: grid;
+}
+
+/* .grid-columns-1
+{ 
+    grid-template-columns: repeat(1, 1fr);
+} */
+
+.grid-columns-2 
+{ 
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-columns-3 
+{ 
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* ------------------------------------------------------------------ */
+
+/* ------------------------- HEADER SECTION ------------------------- */
+header 
+{
+    position: relative;
+    padding: 23px;
+    height: auto;
+}
+
+.header-nav-container
+{
+    width: 100%;
+    margin-top: 17px;
+}
+
+.header-nav-2 i
+{
+    position: relative; 
+    bottom: 15px;
+}
+
+.header-nav-2 a
+{
+    position: relative; 
+    bottom: 19px;
+}
+
+header h1
+{
+    letter-spacing: 3px;
+    padding-top: 17px;
+    font-size: 26px;
+    padding-left: 130px;
+}
+
+.header-nav-1
+{
+    grid-column: 1/span 2;
+}
+
+header nav ul li 
+{   
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header-nav-2 ul li
+{
+    display: inline-block;
+    padding: 0px 5px;
+    position: relative;
+    right: 30px;
+}
+
+header .active
+{
+    color: #FCBC9F;
+}
+
+.fa-user-circle
+{
+    font-size: 28px;
+    color: #F7A789;
+}
+
+.shopping-bag
+{
+    height: 40px;
+    width: 30px;
+    bottom: 10px;
+    position: relative;
+}
+
+
+/* -------------------------- SECTION HERO -------------------------- */
+.section-hero 
+{
+    height: auto;
+}
+
+.section-hero .column-2
+{
+    background-color: #D5EAEB;
+    padding: 150px 100px;
+}
+
+.section-hero .text-collection 
+{
+    font-family: "SnellRoundhandW01-bold";
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.section-hero .text-style
+{
+    letter-spacing: 3px;
+    font-size: 90px;
+    line-height: 1.1;
+    margin-bottom: 30px;
+    color: #292f2f;
+    font-weight: lighter;
+}
+
+.section-hero .button-shop-now
+{
+    background-color: #F7A789;
+    color: #000;
+    padding: 10px 40px;
+}
+/* ------------------------------------------------------------------- */
+
+/* -------------------------- SECTION OFFERS -------------------------- */
+.section-offers 
+{
+    height: 550px;
+}
+
+.section-offers .offer-1
+{
+    background-image: url(/img/5.png);
+    background-size: cover;
+    height: 370px;
+    width: 600px;
+    padding: 80px 40px;
+    position: relative;
+    right: 50px;
+    top: 85px;
+}
+
+.section-offers .offer-1 div
+{
+    height: 200px;
+    width: 270px;
+    margin: 0 auto;
+    background-color: #fff;
+    text-align: center;
+    padding: 45px 20px;
+}
+
+.section-offers .offer-1 p
+{
+    font-family: "SnellRoundhandW01-Bold";
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+.offer-1 h3
+{
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 1px 0px 5px 0px;
+}
+
+.section-offers .offer-2
+{
+    background-image: url(/img/10.png);
+    background-size: cover;
+    height: 370px;
+    width: 600px;
+    padding: 80px 40px;
+    position: relative;
+    left: 50px;
+    top: 85px;
+}
+
+.section-offers .offer-2 div
+{
+    height: 200px;
+    width: 270px;
+    margin: 0 auto;
+    background-color: #fff;
+    text-align: center;
+    padding: 45px 20px;
+}
+
+.section-offers .offer-2 p
+{
+    font-family: "SnellRoundhandW01-Bold";
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+.offer-2 h3
+{
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 0px 0px 18px 0px;
+}
+
+.button-order-now
+{
+    background-color: #D5EAEB;
+    color: #000;
+    padding: 10px 40px;
+}
+/* ------------------------------------------------------------------- */
+
+/* ----------------------- SECTION FRESH POSTER ---------------------- */
+.section-fresh-posters
+{
+    height: auto;
+    margin-top: 150px;
+}
+
+.grid-fresh-posters{
+    grid-template-columns: repeat(2,1fr);
+}
+
+.fresh-column-1
+{
+    height: auto;
+    grid-template-rows: 1fr 2fr 2fr;
+}
+
+.fresh-poster-1
+{
+    padding: 50px 0px 0px 450px;
+}
+
+.fresh-poster-1 h1
+{
+    font-size: 55px;
+    line-height: 1.2;
+    font-weight: lighter;
+}
+
+.fresh-poster-1 h5
+{
+    font-family: "SnellRoundhandW01-Bold";
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+.fresh-poster-1 p
+{
+    max-width: 250px;
+    margin-top: 20px;
+}
+
+.fresh-poster-2 img
+{
+    height: 686px;
+    width: 548px;
+    float: right;
+    margin-right: 75px;
+}
+
+.fresh-text-2
+{
+    position: absolute;
+    margin-left: 445px;
+    margin-top: 510px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.fresh-text-2 h3
+{
+    font-size: 26px;
+    letter-spacing: 4px;
+    font-weight: lighter;
+}
+
+.fresh-text-2 p
+{
+    margin-top: 15px;
+    font-weight: lighter;
+}
+
+.fresh-poster-3 img
+{
+    height: 649px;
+    width: 547px;
+    float: right;
+    border: 5px solid black;
+    margin: 50px 75px 50px 0px;
+}
+
+.fresh-text-3
+{
+    position: absolute;
+    margin-left: 445px;
+    margin-top: 560px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.fresh-text-3 h3
+{
+    font-size: 26px;
+    letter-spacing: 4px;
+    font-weight: lighter;
+}
+
+.fresh-text-3 p
+{
+    margin-top: 15px;
+    font-weight: lighter;
+}
+
+.fresh-poster-4 img
+{
+    height: 492px;
+    width: 485px;
+    float: left;
+    margin-left: 145px;
+    margin-top: 50px;
+}
+
+.image-outline
+{
+    height: 492px;
+    width: 485px;
+    background-color: transparent;
+    border: 5px solid black;
+    position: absolute;
+    margin-left: 75px;
+}
+
+.fresh-poster-5 img
+{
+    height: 693px;
+    width: 548px;
+    float: left;
+    margin-left: 75px;
+    margin-top: 40px;
+}
+
+.fresh-text-5
+{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 550px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.fresh-text-5 h3
+{
+    font-size: 26px;
+    letter-spacing: 4px;
+    font-weight: lighter;
+}
+
+.fresh-text-5 p
+{
+    margin-top: 15px;
+    font-weight: lighter;
+}
+
+.fresh-column-2
+{
+    height: auto;
+    grid-template-rows: 1fr 2fr;
+}
+/* ------------------------------------------------------------------- */
+
+/* ------------------------- SECTION HASHTAG ------------------------- */
+.section-hashtag
+{
+    height: 280px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.section-hashtag .grid-columns-4
+{
+    margin-top: 35px;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.section-hashtag img
+{
+    height: 250px;
+}
+
+.section-hashtag h1
+{
+    font-weight: lighter;
+    letter-spacing: 3px;
+}
+
+.hash-container-1 {
+    position: relative;
+  }
+  
+  .hash-image-1 {
+    display: block;
+  }
+  
+  .hash-overlay-1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .1s ease;
+    background-color: #4747479d;
+  }
+  
+  .hash-container-1:hover .hash-overlay-1 {
+    opacity: 1;
+  }
+  
+  .hash-1-text {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: lighter;
+
+  }
+
+  .hash-1-text h4
+  {
+      font-weight: lighter;
+      font-size: 22px;
+  }
+
+  .hash-1-text p
+  {
+      font-size: 16px;
+      font-weight: lighter;
+      max-width: 400px;
+      margin-top: 10px;
+  }
+
+  .group-icons
+  {
+      margin-top: 30px;
+  }
+
+  .icon-heart
+  {
+    width: 200px;
+    text-align: start;
+  }
+
+  .icon-heart i
+  {
+      font-weight: lighter;
+  }
+
+  .icon-share
+  {
+    width: 200px;
+    text-align: end;
+  }
+/* ------------------------------------------------------------------- */
+
+/* ----------------------- SECTION SUBSCRIPTION ---------------------- */
+.section-subscription
+{
+    height: 110px;
+    text-align: center;
+}
+
+.section-subscription p
+{
+    margin-top: 100px;
+    font-weight: lighter;
+}
+
+.section-subscription input
+{
+    height: 40px;
+    width: 350px;
+    padding: 12px 20px;
+    margin: 8px 5px;
+    border: 1px solid #000;
+}
+
+::-webkit-input-placeholder { 
+    color: #000;
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+    font-weight: lighter;
+  }
+
+.section-subscription .button-subscribe
+{
+    background-color: #F7A789;
+    color: #000;
+    padding: 7px 25px;
+    font-weight: lighter;
+}
+/* ------------------------------------------------------------------- */
+
+/* ------------------------- FOOTER SECTION ------------------------- */
+footer 
+{
+    height: 120px;
+    text-align: center;
+    padding: 20px;
+}
+
+footer i
+{
+    padding: 7px 7px;
+}
+
+footer p
+{
+    margin-top: 10px;
+    font-weight: lighter;
+}
+/* ------------------------------------------------------------------ */
+
+.chat-box
+{
+    height: 60px;
+    width: 330px;
+    background-color: #F7A789;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 5px 20px;
+    grid-template-columns: 5fr 0.5fr;
+}
+
+.icon-area
+{
+    padding: 10px;
+}
+
+.icon-area i
+{
+    font-size: 22px;
+}
+
+.grid-chat-box
+{
+    grid-template-columns: 0.3fr 6fr;
+}
+
+.chat-box h4
+{
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+.chat-box p
+{
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.chat-box i
+{
+    font-size: 12px;
+}
+
+
+/* ||||||||||||||||||||||||||| ABOUT.html ||||||||||||||||||||||||||| */
+
+.section-about
+{
+    height: auto;
+}
+
+.about-column-2
+{
+    background-color:#cdeae9;
+    padding: 120px 100px;
+}
+
+.text-hello
+{
+    font-family: "SnellRoundhandW01-Bold";
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.text-nora
+{
+    margin-top: 5px;
+    font-weight: lighter;
+}
+
+.about-column-2 .para-1, .para-2
+{
+    margin-top: 20px;
+    max-width: 340px;
+}
+
+.about-column-2 h4
+{
+    margin-top: 50px;
+    font-weight: lighter;
+}
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+
+/* ||||||||||||||||||||||||||| CONTACT.html ||||||||||||||||||||||||||| */
+.grid-contact-info
+{
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100px;
+    margin-top: 50px;
+}
+
+.section-contact
+{
+    height: 700px;
+}
+
+.section-contact h1
+{
+    font-size: 54px;
+}
+
+.item-contact-form p
+{
+    color: rgb(94, 92, 92);
+}
+
+.item-contact-form h5
+{
+    margin-left: 210px;
+}
+
+.item-name, .item-email, .item-phone
+{
+    height: 30px;
+    width: 250px;
+    margin: 5px 0px;
+    padding: 0px 10px;
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+.item-message 
+{
+    height: 120px;
+    width: 250px;
+    margin: 5px 0px;
+    padding: 0px 10px;
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+.contact-area
+{
+    background-image: url(/img/4.png);
+    background-position: initial;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    padding: 200px 400px;
+}
+
+.text-underline
+{
+    width: 32px;
+    border-bottom: 2px solid black;
+    margin: 18px 0px;
+}
+
+.social-icons
+{
+    margin-top: 20px;
+}
+
+.social-icons i
+{
+    padding: 7px;
+}
+
+.section-map
+{
+    height: auto;
+}
+
+.contact-area h1
+{
+    font-weight: lighter;
+    font-size: 62px;
+}
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
