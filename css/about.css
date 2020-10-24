@@ -1,0 +1,37 @@
+/* -------------------------- SECTION ABOUT -------------------------- */
+.section-about
+{
+    height: auto;
+}
+
+.about-column-2
+{
+    background-color:#cdeae9;
+    padding: 120px 100px;
+}
+
+.text-hello
+{
+    font-family: "SnellRoundhandW01-Bold";
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.text-nora
+{
+    margin-top: 5px;
+    font-weight: lighter;
+}
+
+.about-column-2 .para-1, .para-2
+{
+    margin-top: 20px;
+    max-width: 340px;
+}
+
+.about-column-2 h4
+{
+    margin-top: 50px;
+    font-weight: lighter;
+}
+/* ------------------------------------------------------------------- */

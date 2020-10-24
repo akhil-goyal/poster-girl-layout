@@ -1,0 +1,86 @@
+/* -------------------------- SECTION CONTACT -------------------------- */
+.grid-contact-info
+{
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100px;
+    margin-top: 50px;
+}
+
+.section-contact
+{
+    height: 700px;
+}
+
+.section-contact h1
+{
+    font-size: 54px;
+}
+
+.item-contact-form p
+{
+    color: rgb(94, 92, 92);
+}
+
+.item-contact-form h5
+{
+    margin-left: 260px;
+}
+
+.item-name, .item-email, .item-phone
+{
+    height: 30px;
+    width: 300px;
+    margin: 5px 0px;
+    padding: 0px 10px;
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+.item-message 
+{
+    height: 120px;
+    width: 300px;
+    margin: 5px 0px;
+    padding: 0px 10px;
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+.contact-area
+{
+    background-image: url(/img/4.png);
+    background-position: initial;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    padding: 200px 400px;
+}
+
+.text-underline
+{
+    width: 32px;
+    border-bottom: 2px solid black;
+    margin: 18px 0px;
+}
+
+.social-icons
+{
+    margin-top: 20px;
+}
+
+.social-icons i
+{
+    padding: 7px;
+}
+
+.section-map
+{
+    height: auto;
+}
+
+.contact-area h1
+{
+    font-weight: lighter;
+    font-size: 62px;
+}
+/* ------------------------------------------------------------------- */

@@ -1,0 +1,236 @@
+/* --------------------------- CSS RESET ---------------------------- */
+* 
+{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body 
+{ 
+    font-family: 'Playfair Display', serif;
+    line-height: 1.7rem;
+    color: #292f2f;
+    font-weight: lighter;
+}
+/* ------------------------------------------------------------------ */
+
+
+/* ------------------------- UTILITY STYLES ------------------------- */
+ img 
+{ 
+    width: 100%;
+    max-width: 100%;
+}
+
+a
+{
+    text-decoration: none;
+    color: #000;
+}
+
+.container 
+{ 
+    margin: 0 auto;
+    max-width: 1200px; 
+    width: 90%; 
+}
+
+.grid 
+{ 
+    display: grid;
+}
+
+.grid-columns-2 
+{ 
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-columns-3 
+{ 
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* ------------------------------------------------------------------ */
+
+
+/* ------------------------- HEADER SECTION ------------------------- */
+header 
+{
+    position: relative;
+    padding: 23px;
+    height: auto;
+}
+
+.header-nav-container
+{
+    width: 100%;
+    margin-top: 17px;
+}
+
+.header-nav-2 i
+{
+    position: relative; 
+    bottom: 15px;
+}
+
+.header-nav-2 a
+{
+    position: relative; 
+    bottom: 19px;
+}
+
+header h1
+{
+    letter-spacing: 3px;
+    padding-top: 17px;
+    font-size: 26px;
+    padding-left: 130px;
+}
+
+.header-nav-1
+{
+    grid-column: 1/span 2;
+}
+
+header nav ul li 
+{   
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header-nav-2 ul li
+{
+    display: inline-block;
+    padding: 0px 5px;
+    position: relative;
+    right: 30px;
+}
+
+header .active
+{
+    color: #FCBC9F;
+}
+
+.fa-user-circle
+{
+    font-size: 28px;
+    color: #F7A789;
+}
+
+.shopping-bag
+{
+    height: 40px;
+    width: 30px;
+    bottom: 10px;
+    position: relative;
+}
+/* ------------------------------------------------------------------ */
+
+
+/* ----------------------- SECTION SUBSCRIPTION ---------------------- */
+.section-subscription
+{
+    height: 110px;
+    text-align: center;
+}
+
+.section-subscription p
+{
+    margin-top: 100px;
+    font-weight: lighter;
+}
+
+.section-subscription input
+{
+    height: 40px;
+    width: 350px;
+    padding: 12px 20px;
+    margin: 8px 5px;
+    border: 1px solid #000;
+}
+
+::-webkit-input-placeholder 
+{ 
+    color: #000;
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+    font-weight: lighter;
+}
+
+.section-subscription .button-subscribe
+{
+    background-color: #F7A789;
+    color: #000;
+    padding: 7px 25px;
+    font-weight: lighter;
+}
+/* ------------------------------------------------------------------- */
+
+
+/* ------------------------- FOOTER SECTION ------------------------- */
+footer 
+{
+    height: 120px;
+    text-align: center;
+    padding: 20px;
+}
+
+footer i
+{
+    padding: 7px 7px;
+}
+
+footer p
+{
+    margin-top: 10px;
+    font-weight: lighter;
+}
+/* ------------------------------------------------------------------ */
+
+
+/* ----------------------------- CHAT BOX ---------------------------- */
+.chat-box
+{
+    height: 60px;
+    width: 330px;
+    background-color: #F7A789;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 5px 20px;
+    grid-template-columns: 5fr 0.5fr;
+}
+
+.icon-area
+{
+    padding: 10px;
+}
+
+.icon-area i
+{
+    font-size: 22px;
+}
+
+.grid-chat-box
+{
+    grid-template-columns: 0.3fr 6fr;
+}
+
+.chat-box h4
+{
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+.chat-box p
+{
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.chat-box i
+{
+    font-size: 12px;
+}
+/* ------------------------------------------------------------------ */
