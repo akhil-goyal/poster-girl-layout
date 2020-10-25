@@ -1,0 +1,1094 @@
+@media (max-width: 575.98px) { 
+
+  body{
+    overflow-x: hidden;
+  }
+
+    /* HEADER */
+
+    .shopping-bag-hidden
+    {
+        display: block;
+    }
+
+    header .container
+    {
+        grid-template-columns: 1fr;
+    }
+
+    .header-nav-container
+    {
+        grid-template-columns: 1fr;
+    }
+
+    header nav
+    {
+        width: 100%;
+    }
+
+    .header-nav-2
+    {
+        text-align: center;
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .header-nav-2 ul li
+    {
+        display: inline-block;
+        right: 0;
+    }
+
+    .header-nav-1 ul
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .header-nav-1 ul li
+    {
+        width: 100%;
+        padding-bottom : 20px;
+    }
+
+    .grid-mobile
+    {
+        display: grid;
+    }
+
+    .grid-mobile-columns-2
+    {
+        grid-template-columns: 1fr 2fr;
+    }
+
+    header h1
+    {
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+
+    .shopping-bag-hidden
+    {
+        text-align: right;
+        position: relative;
+        margin-right: 10px;
+    }
+
+    .shopping-bag
+    {
+        display: none;
+    }
+
+    .shopping-bag-mobile
+    {
+        height: 40px;
+        width: 30px;
+        bottom: 10px;
+        position: relative;
+    }
+
+    /* ///////////////////// */
+
+    /* SECTION HERO */
+
+    .section-hero
+    {
+        grid-template-columns: 1fr;
+    }
+
+    .section-hero .text-style
+    {
+        font-size: 50px;
+    }
+
+    .section-hero .text-collection
+    {
+        font-size: 20px;
+    }
+
+    /* ///////////// */
+
+    /* SECTION OFFERS */
+
+    .section-offers .container
+    {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    .section-offers .offer-1
+    {
+        padding: 80px 0px;
+        right: 0px;
+        width: 100%;
+    }
+
+    .section-offers .offer-2
+    {
+        padding: 80px 0px;
+        left: 0px;
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .section-offers .offer-1 div
+    {
+        padding: 45px 0px;
+    }
+
+    .section-offers .offer-2 div
+    {
+        padding: 45px 0px;
+    }
+
+    /* SECTION FRESH POSTER */
+    .grid-fresh-posters
+    {
+        grid-template-columns: 1fr;
+    }
+
+    .fresh-column-1 
+    {
+        grid-template-rows: 1fr;
+    }
+
+    .fresh-poster-1
+    {
+        margin-top: 150px;
+        padding: 60px 0px 40px 50px;
+    }
+
+    .fresh-poster-2 img
+    {
+        margin-right: 0px;
+        margin-top: 20px;
+    }
+
+    .fresh-text-2
+    {
+        margin-left: 140px;
+    }
+
+    .fresh-poster-3 img
+    {
+        margin: 50px 0px 50px 0px;
+    }
+
+    .fresh-text-3
+    {
+        margin-left: 140px;
+    }
+
+    .fresh-poster-4 img
+    {
+        width: 430px;
+        margin-left: 55px;
+    }
+
+    .image-outline
+    {
+        width: 385px;
+        margin-left: 0px;
+    }
+
+    .fresh-poster-5 img
+    {
+        margin-left: 0px;
+    }
+
+    .fresh-text-5
+    {
+        margin-left: 140px;
+    }
+
+    /* SECTION HASHTAG */
+    .section-hashtag
+    {
+        height: auto;
+        margin-top: -300px;
+    }
+
+    .section-hashtag img 
+    {
+        height: 100px;
+    }
+
+    .hash-container-1:hover .hash-overlay-1 
+    {
+        opacity: 0;
+    }
+    /* /////////////// */
+
+    /* SECTION SUBSCRIPTION */
+
+    .section-subscription
+    {
+        text-align: center;
+    }
+
+    .section-subscription p
+    {
+        margin-top: 30px;
+        padding: 0px 90px;
+    }
+
+    .section-subscription input
+    {
+        width: 90%;
+    }
+    
+    .button-subscribe
+    {
+        top: 10px;
+        position: relative;
+    }
+
+    .section-subscription .button-subscribe 
+    {
+        padding: 10px 184px;
+    }    
+    /* //////////////////// */
+
+    /* FOOTER */
+    footer 
+    {
+        margin-top: 50px;
+    }
+
+    footer i
+    {
+        font-size: 22px;
+    }
+
+    /* ///////////// */
+
+     /* \\\\\\\\\ ABOUT PAGE \\\\\\\\\\ */
+
+     .section-about
+     {
+         grid-template-columns: 1fr;
+     }
+
+     .section-subscription p{
+        top: 10px;
+     }
+
+     /* \\\\\\\\\ CONTACT PAGE \\\\\\\\\\ */
+
+     .grid-contact-info
+     {
+         grid-template-columns: 1fr;
+     }
+
+     .contact-area
+    {
+        height: 800px;
+        padding: 20px 40px 10px 40px;
+        width: 100%;
+        clear: both;
+        position: relative;
+    }
+
+    .item-name, .item-email, .item-phone
+    {
+        width: 100%;
+    }
+
+    .item-message 
+    {
+        width: 100%;
+    }
+
+    .item-contact-form h5
+    {
+        margin-left: 370px;
+    }
+
+    .section-contact h1
+    {
+        font-size: 40px;
+    }
+
+    .section-map img
+    {
+        height: 400px;
+        margin-top: 120px;
+        position: relative;
+    }
+
+    .contact-area h1
+    {
+        margin-top: 30px;
+    }
+
+ }
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+    body{
+        overflow-x: hidden;
+      }
+      
+        /* HEADER */
+    
+        .shopping-bag-hidden
+        {
+            display: block;
+        }
+    
+        header .container
+        {
+            grid-template-columns: 1fr;
+        }
+    
+        .header-nav-container
+        {
+            grid-template-columns: 1fr;
+        }
+    
+        header nav
+        {
+            width: 100%;
+        }
+    
+        .header-nav-2
+        {
+            text-align: center;
+            width: 100%;
+            margin-top: 25px;
+        }
+    
+        .header-nav-2 ul li
+        {
+            display: inline-block;
+            right: 0;
+        }
+    
+        .header-nav-1 ul
+        {
+            display: grid;
+            grid-template-columns: 1fr;
+            text-align: center;
+        }
+    
+        .header-nav-1 ul li
+        {
+            width: 100%;
+            padding-bottom : 20px;
+        }
+    
+        .grid-mobile
+        {
+            display: grid;
+        }
+    
+        .grid-mobile-columns-2
+        {
+            grid-template-columns: 1fr 2fr;
+        }
+    
+        header h1
+        {
+            padding-top: 0px;
+            padding-left: 0px;
+        }
+    
+        .shopping-bag-hidden
+        {
+            text-align: right;
+            position: relative;
+            margin-right: 10px;
+        }
+    
+        .shopping-bag
+        {
+            display: none;
+        }
+    
+        .shopping-bag-mobile
+        {
+            height: 40px;
+            width: 30px;
+            bottom: 10px;
+            position: relative;
+        }
+    
+        /* ///////////////////// */
+    
+        /* SECTION HERO */
+    
+        .section-hero
+        {
+            grid-template-columns: 1fr;
+        }
+    
+        .section-hero .text-style
+        {
+            font-size: 50px;
+        }
+    
+        .section-hero .text-collection
+        {
+            font-size: 20px;
+        }
+    
+        /* ///////////// */
+    
+        /* SECTION OFFERS */
+    
+        .section-offers .container
+        {
+            grid-template-columns: 1fr;
+            width: 100%;
+        }
+    
+        .section-offers .offer-1
+        {
+            padding: 80px 0px;
+            right: 0px;
+            width: 100%;
+        }
+    
+        .section-offers .offer-2
+        {
+            padding: 80px 0px;
+            left: 0px;
+            width: 100%;
+            margin-top: 40px;
+        }
+    
+        .section-offers .offer-1 div
+        {
+            padding: 45px 0px;
+        }
+    
+        .section-offers .offer-2 div
+        {
+            padding: 45px 0px;
+        }
+    
+        /* SECTION FRESH POSTER */
+        .grid-fresh-posters
+        {
+            grid-template-columns: 1fr;
+        }
+    
+        .fresh-column-1 
+        {
+            grid-template-rows: 1fr;
+        }
+    
+        .fresh-poster-1
+        {
+            margin-top: 150px;
+            padding: 60px 0px 40px 50px;
+        }
+    
+        .fresh-poster-2 img
+        {
+            margin-right: 0px;
+            margin-top: 20px;
+        }
+    
+        .fresh-text-2
+        {
+            margin-left: 140px;
+        }
+    
+        .fresh-poster-3 img
+        {
+            margin: 50px 0px 50px 0px;
+        }
+    
+        .fresh-text-3
+        {
+            margin-left: 140px;
+        }
+    
+        .fresh-poster-4 img
+        {
+            width: 430px;
+            margin-left: 55px;
+        }
+    
+        .image-outline
+        {
+            width: 385px;
+            margin-left: 0px;
+        }
+    
+        .fresh-poster-5 img
+        {
+            margin-left: 0px;
+        }
+    
+        .fresh-text-5
+        {
+            margin-left: 140px;
+        }
+    
+        /* SECTION HASHTAG */
+        .section-hashtag
+        {
+            height: auto;
+            margin-top: -300px;
+        }
+    
+        .section-hashtag img 
+        {
+            height: 100px;
+        }
+    
+        .hash-container-1:hover .hash-overlay-1 
+        {
+            opacity: 0;
+        }
+        /* /////////////// */
+    
+        /* SECTION SUBSCRIPTION */
+    
+        .section-subscription
+        {
+            text-align: center;
+        }
+    
+        .section-subscription p
+        {
+            margin-top: 30px;
+            padding: 0px 90px;
+        }
+    
+        .section-subscription input
+        {
+            width: 90%;
+        }
+        
+        .button-subscribe
+        {
+            top: 10px;
+            position: relative;
+        }
+    
+        .section-subscription .button-subscribe 
+        {
+            padding: 10px 184px;
+        }    
+        /* //////////////////// */
+    
+        /* FOOTER */
+        footer 
+        {
+            margin-top: 50px;
+        }
+    
+        footer i
+        {
+            font-size: 22px;
+        }
+    
+        /* ///////////// */
+    
+        
+         /* \\\\\\\\\ ABOUT PAGE \\\\\\\\\\ */
+    
+         .section-about
+         {
+             grid-template-columns: 1fr;
+         }
+    
+         .section-subscription p{
+            top: 10px;
+         }
+    
+         /* \\\\\\\\\ CONTACT PAGE \\\\\\\\\\ */
+    
+         .grid-contact-info
+         {
+             grid-template-columns: 1fr;
+         }
+    
+         .contact-area
+        {
+            height: 800px;
+            padding: 20px 40px 10px 40px;
+            width: 100%;
+            clear: both;
+            position: relative;
+        }
+    
+        .item-name, .item-email, .item-phone
+        {
+            width: 100%;
+        }
+    
+        .item-message 
+        {
+            width: 100%;
+        }
+    
+        .item-contact-form h5
+        {
+            margin-left: 370px;
+        }
+    
+        .section-contact h1
+        {
+            font-size: 40px;
+        }
+    
+        .section-map img
+        {
+            height: 400px;
+            margin-top: 120px;
+            position: relative;
+        }
+    
+        .contact-area h1
+        {
+            margin-top: 30px;
+        }
+
+ }
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+    body{
+        overflow-x: hidden;
+      }
+      
+        /* HEADER */
+    
+        .shopping-bag-hidden
+        {
+            display: block;
+        }
+    
+        header .container
+        {
+            grid-template-columns: 1fr;
+        }
+    
+        .header-nav-container
+        {
+            grid-template-columns: 1fr;
+        }
+    
+        header nav
+        {
+            width: 100%;
+        }
+    
+        .header-nav-2
+        {
+            text-align: center;
+            width: 100%;
+            margin-top: 25px;
+        }
+    
+        .header-nav-2 ul li
+        {
+            display: inline-block;
+            right: 0;
+        }
+    
+        .header-nav-1 ul
+        {
+            display: grid;
+            grid-template-columns: 1fr;
+            text-align: center;
+        }
+    
+        .header-nav-1 ul li
+        {
+            width: 100%;
+            padding-bottom : 20px;
+        }
+    
+        .grid-mobile
+        {
+            display: grid;
+        }
+    
+        .grid-mobile-columns-2
+        {
+            grid-template-columns: 1fr 2fr;
+        }
+    
+        header h1
+        {
+            padding-top: 0px;
+            padding-left: 0px;
+        }
+    
+        .shopping-bag-hidden
+        {
+            text-align: right;
+            position: relative;
+            margin-right: 10px;
+        }
+    
+        .shopping-bag
+        {
+            display: none;
+        }
+    
+        .shopping-bag-mobile
+        {
+            height: 40px;
+            width: 30px;
+            bottom: 10px;
+            position: relative;
+        }
+    
+        /* ///////////////////// */
+    
+        /* SECTION HERO */
+    
+        .section-hero
+        {
+            grid-template-columns: 1fr;
+        }
+    
+        .section-hero .text-style
+        {
+            font-size: 50px;
+        }
+    
+        .section-hero .text-collection
+        {
+            font-size: 20px;
+        }
+    
+        /* ///////////// */
+    
+        /* SECTION OFFERS */
+    
+        .section-offers .container
+        {
+            grid-template-columns: 1fr;
+            width: 100%;
+        }
+    
+        .section-offers .offer-1
+        {
+            padding: 80px 0px;
+            right: 0px;
+            width: 100%;
+        }
+    
+        .section-offers .offer-2
+        {
+            padding: 80px 0px;
+            left: 0px;
+            width: 100%;
+            margin-top: 40px;
+        }
+    
+        .section-offers .offer-1 div
+        {
+            padding: 45px 0px;
+        }
+    
+        .section-offers .offer-2 div
+        {
+            padding: 45px 0px;
+        }
+    
+        /* SECTION FRESH POSTER */
+        .grid-fresh-posters
+        {
+            grid-template-columns: 1fr;
+        }
+    
+        .fresh-column-1 
+        {
+            grid-template-rows: 1fr;
+        }
+    
+        .fresh-poster-1
+        {
+            margin-top: 150px;
+            padding: 60px 0px 40px 50px;
+        }
+    
+        .fresh-poster-2 img
+        {
+            margin-right: 0px;
+            margin-top: 20px;
+        }
+    
+        .fresh-text-2
+        {
+            margin-left: 140px;
+        }
+    
+        .fresh-poster-3 img
+        {
+            margin: 50px 0px 50px 0px;
+        }
+    
+        .fresh-text-3
+        {
+            margin-left: 140px;
+        }
+    
+        .fresh-poster-4 img
+        {
+            width: 430px;
+            margin-left: 55px;
+        }
+    
+        .image-outline
+        {
+            width: 385px;
+            margin-left: 0px;
+        }
+    
+        .fresh-poster-5 img
+        {
+            margin-left: 0px;
+        }
+    
+        .fresh-text-5
+        {
+            margin-left: 140px;
+        }
+    
+        /* SECTION HASHTAG */
+        .section-hashtag
+        {
+            height: auto;
+            margin-top: -300px;
+        }
+    
+        .section-hashtag img 
+        {
+            height: 100px;
+        }
+    
+        .hash-container-1:hover .hash-overlay-1 
+        {
+            opacity: 0;
+        }
+        /* /////////////// */
+    
+        /* SECTION SUBSCRIPTION */
+    
+        .section-subscription
+        {
+            text-align: center;
+        }
+    
+        .section-subscription p
+        {
+            margin-top: 30px;
+            padding: 0px 90px;
+        }
+    
+        .section-subscription input
+        {
+            width: 90%;
+        }
+        
+        .button-subscribe
+        {
+            top: 10px;
+            position: relative;
+        }
+    
+        .section-subscription .button-subscribe 
+        {
+            padding: 10px 184px;
+        }    
+        /* //////////////////// */
+    
+        /* FOOTER */
+        footer 
+        {
+            margin-top: 50px;
+        }
+    
+        footer i
+        {
+            font-size: 22px;
+        }
+    
+        /* ///////////// */
+    
+         /* \\\\\\\\\ ABOUT PAGE \\\\\\\\\\ */
+    
+         .section-about
+         {
+             grid-template-columns: 1fr;
+         }
+    
+         .section-subscription p{
+            top: 10px;
+         }
+    
+         /* \\\\\\\\\ CONTACT PAGE \\\\\\\\\\ */
+    
+         .grid-contact-info
+         {
+             grid-template-columns: 1fr;
+         }
+    
+         .contact-area
+        {
+            height: 800px;
+            padding: 20px 40px 10px 40px;
+            width: 100%;
+            clear: both;
+            position: relative;
+        }
+    
+        .item-name, .item-email, .item-phone
+        {
+            width: 100%;
+        }
+    
+        .item-message 
+        {
+            width: 100%;
+        }
+    
+        .item-contact-form h5
+        {
+            margin-left: 370px;
+        }
+    
+        .section-contact h1
+        {
+            font-size: 40px;
+        }
+    
+        .section-map img
+        {
+            height: 400px;
+            margin-top: 120px;
+            position: relative;
+        }
+    
+        .contact-area h1
+        {
+            margin-top: 30px;
+        }
+
+ }
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* HEADER */
+    header nav ul li 
+    {   
+        padding: 0 10px;
+    }
+
+    header h1
+        {
+            padding-top: 18px;
+            padding-left: 0px;
+        }
+
+    .header-nav-2 ul li
+    {
+        display: inline-block;
+        padding: 0px 5px;
+        position: relative;
+        right: 10px;
+    }
+
+    /* HERO */
+    .section-hero img
+    {
+        height: 680px;
+    }
+
+    /* OFFERS */
+    .section-offers .offer-1
+    {
+        width: 300px;
+        padding: 80px 20px;
+    }
+
+    .section-offers .offer-2
+    {
+        width: 300px;
+        padding: 80px 15px;
+    }
+
+    .section-offers .offer-1 {
+        width: 300px;
+        padding: 80px 15px;
+        margin-left: 164px;
+    }
+    
+    /* POSTERS */
+    .fresh-poster-1
+    {
+        padding: 50px 0px 0px 30px;
+    }
+
+        .fresh-text-2
+    {
+        margin-left: 90px;
+    }
+
+    .image-outline
+    {
+        height: 492px;
+        width: 485px;
+        background-color: transparent;
+        border: 5px solid black;
+        position: absolute;
+        margin-left: 75px;
+    }
+
+    .fresh-text-3
+    {
+        margin-left: 90px;
+    }
+    
+    .fresh-poster-4 img
+    {
+        height: 492px;
+        width: 440px;
+        float: left;
+        margin-left: 145px;
+        margin-top: 50px;
+    }
+
+        .fresh-text-5
+    {
+        margin-left: 230px;
+    }
+
+    /* ///////// */
+
+         .section-about img
+         {
+             height: 770px;
+         }
+    
+         .section-subscription p{
+            top: 10px;
+         }
+
+         /* || Contact || */
+
+         .section-map img
+         {
+             height: 600px;
+         }
+
+         .contact-area {
+            padding: 160px 30px;
+        }
+
+         .about-column-2 {
+            background-color: #cdeae9;
+            padding: 95px 100px;
+        }
+        
+ }
